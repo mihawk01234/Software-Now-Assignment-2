@@ -32,3 +32,4 @@ def encrypt_file(shift1, shift2):
     # Write encrypted content to a new file
     with open("encrypted_text.txt", "w", encoding="utf-8") as f:
         f.write(encrypted_text)
+        
